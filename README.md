@@ -1,2 +1,2 @@
-# ShopWithASP.NETCore
-Create Shop With ASP.NET Core
+# Shop With ASP.NET Core & EntityFramework Core
+Create Shop With ASP.NET Core & EntityFramework Core
