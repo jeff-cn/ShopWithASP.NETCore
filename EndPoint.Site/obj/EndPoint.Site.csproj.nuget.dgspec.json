@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj": {}
+    "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj": {
+    "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
+        "projectUniqueName": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
         "projectName": "EndPoint.Site",
-        "projectPath": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
+        "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
         "packagesPath": "C:\\Users\\Omid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\EndPoint.Site\\obj\\",
+        "outputPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

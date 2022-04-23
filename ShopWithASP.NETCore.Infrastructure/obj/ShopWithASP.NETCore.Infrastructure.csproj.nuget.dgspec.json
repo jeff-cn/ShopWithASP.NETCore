@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj": {}
+    "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj": {
+    "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj",
+        "projectUniqueName": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj",
         "projectName": "ShopWithASP.NETCore.Infrastructure",
-        "projectPath": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj",
+        "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\ShopWithASP.NETCore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Omid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\obj\\",
+        "outputPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

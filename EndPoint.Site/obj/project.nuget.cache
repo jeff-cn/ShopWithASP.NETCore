@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/W90/SBxelyl/oCdbDiAiAt5nmI2VPQnjMx91vT6JSLwKKXZTFgb91bdRIp9qjDrTe0Qbn2ZeMRijizS/aNRAA==",
+  "dgSpecHash": "PTPtAcZJn91PHOfS+11mBz5fvA0kUagHm8Un1zrHxSKIUqiaFvw8ML5xLnGzwDKpT2Grn0OMfTIBjpteHCIXGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omid\\Documents\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
+  "projectFilePath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omid\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Omid\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
