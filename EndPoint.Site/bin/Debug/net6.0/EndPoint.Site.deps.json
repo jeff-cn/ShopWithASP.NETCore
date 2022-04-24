@@ -2113,8 +2113,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
-          "ShopWithASP.NETCore.Application": "1.0.0",
-          "ShopWithASP.NETCore.Doima": "1.0.0"
+          "ShopWithASP.NETCore.Application": "1.0.0"
         },
         "runtime": {
           "ShopWithASP.NETCore.Persistence.dll": {}

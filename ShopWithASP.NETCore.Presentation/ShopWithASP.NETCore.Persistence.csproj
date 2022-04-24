@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShopWithASP.NETCore.Application\ShopWithASP.NETCore.Application.csproj" />
-    <ProjectReference Include="..\ShopWithASP.NETCore.Doima\ShopWithASP.NETCore.Doima.csproj" />
   </ItemGroup>
 
 </Project>

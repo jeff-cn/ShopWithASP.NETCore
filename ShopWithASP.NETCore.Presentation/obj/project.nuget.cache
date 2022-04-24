@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jmw8wZYQmYzGFRySr9msoRsrVDf6hQo8OIqsCHviT66C2K3R9/EH44x+ZEsfiwfrfZ37F5r89de4BHgjKrmQRw==",
+  "dgSpecHash": "oeFeuMn7Z7W4QAOLc6u+ka60OHQGbwSyUif4c6SNwP7x16M5YJIBI4Rr7C/dG9Uz5DEJ+hPyaSeeAWh2GRy1Yg==",
   "success": true,
   "projectFilePath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Presentation\\ShopWithASP.NETCore.Persistence.csproj",
   "expectedPackageFiles": [
@@ -26,5 +26,12 @@
     "C:\\Users\\Omid\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Omid\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Presentation\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

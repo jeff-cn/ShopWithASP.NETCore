@@ -249,9 +249,6 @@
             "projectReferences": {
               "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Application\\ShopWithASP.NETCore.Application.csproj": {
                 "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Application\\ShopWithASP.NETCore.Application.csproj"
-              },
-              "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Doima\\ShopWithASP.NETCore.Doima.csproj": {
-                "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Doima\\ShopWithASP.NETCore.Doima.csproj"
               }
             }
           }

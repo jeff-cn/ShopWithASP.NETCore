@@ -3024,8 +3024,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.4",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4",
-          "ShopWithASP.NETCore.Application": "1.0.0",
-          "ShopWithASP.NETCore.Doima": "1.0.0"
+          "ShopWithASP.NETCore.Application": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ShopWithASP.NETCore.Persistence.dll": {}
@@ -9451,5 +9450,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

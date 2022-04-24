@@ -772,8 +772,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
-      "ShopWithASP.NETCore.Application >= 1.0.0",
-      "ShopWithASP.NETCore.Doima >= 1.0.0"
+      "ShopWithASP.NETCore.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -810,9 +809,6 @@
           "projectReferences": {
             "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Application\\ShopWithASP.NETCore.Application.csproj": {
               "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Application\\ShopWithASP.NETCore.Application.csproj"
-            },
-            "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Doima\\ShopWithASP.NETCore.Doima.csproj": {
-              "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Doima\\ShopWithASP.NETCore.Doima.csproj"
             }
           }
         }
@@ -864,5 +860,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Presentation\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
