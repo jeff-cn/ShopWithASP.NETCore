@@ -17,17 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BB4D8055-1F3E-489C-B561-CBF35DA6EE2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWithASP.NETCore.Doima", "ShopWithASP.NETCore.Doima\ShopWithASP.NETCore.Doima.csproj", "{6DB1CEBD-A5C7-4C77-8E61-788B2CD7AB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWithASP.NETCore.Doima", "ShopWithASP.NETCore.Doima\ShopWithASP.NETCore.Doima.csproj", "{6DB1CEBD-A5C7-4C77-8E61-788B2CD7AB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWithASP.NETCore.Application", "ShopWithASP.NETCore.Application\ShopWithASP.NETCore.Application.csproj", "{06E6A4AA-50F4-49C4-93AB-8A9767D38BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWithASP.NETCore.Application", "ShopWithASP.NETCore.Application\ShopWithASP.NETCore.Application.csproj", "{06E6A4AA-50F4-49C4-93AB-8A9767D38BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWithASP.NETCore.Infrastructure", "ShopWithASP.NETCore.Infrastructure\ShopWithASP.NETCore.Infrastructure.csproj", "{9D49AF24-21EB-4AAF-93B2-6F6D5FF4743D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWithASP.NETCore.Infrastructure", "ShopWithASP.NETCore.Infrastructure\ShopWithASP.NETCore.Infrastructure.csproj", "{9D49AF24-21EB-4AAF-93B2-6F6D5FF4743D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWithASP.NETCore.Common", "ShopWithASP.NETCore.Common\ShopWithASP.NETCore.Common.csproj", "{A45A2FC0-94F3-444F-8684-5815DF6A7ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWithASP.NETCore.Common", "ShopWithASP.NETCore.Common\ShopWithASP.NETCore.Common.csproj", "{A45A2FC0-94F3-444F-8684-5815DF6A7ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWithASP.NETCore.Presentation", "ShopWithASP.NETCore.Presentation\ShopWithASP.NETCore.Presentation.csproj", "{B4092158-9D35-49D1-8683-9056344FC302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopWithASP.NETCore.Persistence", "ShopWithASP.NETCore.Presentation\ShopWithASP.NETCore.Persistence.csproj", "{B4092158-9D35-49D1-8683-9056344FC302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndPoint.Site", "EndPoint.Site\EndPoint.Site.csproj", "{0EB48B62-8251-4321-B6B3-70D831174933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndPoint.Site", "EndPoint.Site\EndPoint.Site.csproj", "{0EB48B62-8251-4321-B6B3-70D831174933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

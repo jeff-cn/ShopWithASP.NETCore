@@ -472,3 +472,16 @@ F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\obj\Debug\net
 F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\obj\Debug\net6.0\EndPoint.Site.pdb
 F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\obj\Debug\net6.0\EndPoint.Site.genruntimeconfig.cache
 F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\obj\Debug\net6.0\ref\EndPoint.Site.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Npgsql.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\ShopWithASP.NETCore.Application.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\ShopWithASP.NETCore.Doima.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\ShopWithASP.NETCore.Persistence.dll
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\ShopWithASP.NETCore.Persistence.pdb
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\ShopWithASP.NETCore.Application.pdb
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\ShopWithASP.NETCore.Doima.pdb
+F:\Projects\Asp.Net\Asp.Net Core\ShopWithASP.NETCore\EndPoint.Site\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
