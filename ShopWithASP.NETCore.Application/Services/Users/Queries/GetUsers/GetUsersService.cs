@@ -10,7 +10,7 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers
         {
             _context = context;
         }
-        public List<GetUsersDto> Execute(RequsetGetUserDto _requset)
+        public ResultGetUserDto Execute(RequsetGetUserDto _requset)
         {
             var _users = _context.Users.AsQueryable();
             if (!string.IsNullOrWhiteSpace(_requset.SearchKey))
@@ -18,12 +18,18 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers
                 _users = _users.Where(o => o.FullName.Contains(_requset.SearchKey) && o.Email.Contains(_requset.SearchKey));
             }
             int RowsCount = 0;
-            return _users.ToPaged(_requset.Page, 20, out RowsCount).Select(o => new GetUsersDto
+            var _userlist = _users.ToPaged(_requset.Page, 20, out RowsCount).Select(o => new GetUsersDto
             {
                 Email = o.Email,
                 FullName = o.FullName,
                 UserId = o.UserId
             }).ToList();
+            
+            return new ResultGetUserDto
+            {
+                Rows = RowsCount,
+                UsersDtos = _userlist,
+            };
         }
     }
 }

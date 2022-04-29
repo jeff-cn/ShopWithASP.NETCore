@@ -1,13 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers;
 
 namespace EndPoint.Site.Areas.Admin.Controllers
 {
     public class UsersController : Controller
     {
-        [Area("Admin")]
-        public IActionResult Index()
+        private readonly IGetUsersService _getUsersService;
+        public UsersController(IGetUsersService getUsersService)
         {
-            return View();
+            _getUsersService = getUsersService;
+        }
+
+        [Area("Admin")]
+        public IActionResult Index(string SearchKey, int Page)
+        {
+            return View(_getUsersService.Execute(new RequsetGetUserDto
+            {
+                SearchKey = SearchKey,
+                Page = Page,
+            }));
         }
     }
 }

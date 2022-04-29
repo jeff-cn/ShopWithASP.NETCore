@@ -8,6 +8,6 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers
 {
     public interface IGetUsersService
     {
-        List<GetUsersDto> Execute(RequsetGetUserDto _requset);
+        ResultGetUserDto Execute(RequsetGetUserDto _requset);
     }
 }
