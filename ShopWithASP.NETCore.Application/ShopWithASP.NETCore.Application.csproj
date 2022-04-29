@@ -11,7 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ShopWithASP.NETCore.Common\ShopWithASP.NETCore.Common.csproj" />
     <ProjectReference Include="..\ShopWithASP.NETCore.Doima\ShopWithASP.NETCore.Doima.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Users\Commands\" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y6ZeRimWTFK59eoIHuXefFfY67MI6zNkRJIPAN/yJ5N1v3jCr4FnwaXwT/em5oGZ7Zd2r0YGYwsW1CMbDw+aDA==",
+  "dgSpecHash": "s+U4ZJ296as1WC/ZAANGf1X8XyqsGr/ifVRBEEqG2GCix8VoErpYlqqWvawmB4m0ojGgZ2k7vhb826DM6hjv9Q==",
   "success": true,
   "projectFilePath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\EndPoint.Site.csproj",
   "expectedPackageFiles": [
@@ -173,12 +173,5 @@
     "C:\\Users\\Omid\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Omid\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

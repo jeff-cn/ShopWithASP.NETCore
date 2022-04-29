@@ -192,6 +192,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "ShopWithASP.NETCore.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShopWithASP.NETCore.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopWithASP.NETCore.Common.dll": {}
+        }
+      },
       "ShopWithASP.NETCore.Doima/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -527,6 +537,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ShopWithASP.NETCore.Common/1.0.0": {
+      "type": "project",
+      "path": "../ShopWithASP.NETCore.Common/ShopWithASP.NETCore.Common.csproj",
+      "msbuildProject": "../ShopWithASP.NETCore.Common/ShopWithASP.NETCore.Common.csproj"
+    },
     "ShopWithASP.NETCore.Doima/1.0.0": {
       "type": "project",
       "path": "../ShopWithASP.NETCore.Doima/ShopWithASP.NETCore.Doima.csproj",
@@ -536,6 +551,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.4",
+      "ShopWithASP.NETCore.Common >= 1.0.0",
       "ShopWithASP.NETCore.Doima >= 1.0.0"
     ]
   },
@@ -571,6 +587,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Common\\ShopWithASP.NETCore.Common.csproj": {
+              "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Common\\ShopWithASP.NETCore.Common.csproj"
+            },
             "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Doima\\ShopWithASP.NETCore.Doima.csproj": {
               "projectPath": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\ShopWithASP.NETCore.Doima\\ShopWithASP.NETCore.Doima.csproj"
             }
