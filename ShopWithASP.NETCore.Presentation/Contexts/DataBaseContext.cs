@@ -26,6 +26,11 @@ namespace ShopWithASP.NETCore.Presentation.Contexts
             modelBuilder.Entity<Role>().HasData(new Role { RoleId = 1, Name = nameof(UserRoles.Admin) });
             modelBuilder.Entity<Role>().HasData(new Role { RoleId = 2, Name = nameof(UserRoles.Operator) });
             modelBuilder.Entity<Role>().HasData(new Role { RoleId = 3, Name = nameof(UserRoles.Customer) });
+
+            // اعمال ایندکس بر روی فیلد ایمیل واعمال عدم تکراری بودن ایمیل
+            modelBuilder.Entity<User>().HasIndex(u => u.Email).IsUnique();
+
+            //modelBuilder.Entity<User>().HasQueryFilter(p => !p.IsRemoved);
         }
     }
 }

@@ -4,6 +4,7 @@ using ShopWithASP.NETCore.Presentation.Contexts;
 using ShopWithASP.NETCore.Application.Interfaces.Contexts;
 using ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers;
 using ShopWithASP.NETCore.Application.Services.Users.Queries.GetRoles;
+using ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IDataBaseContext, DataBaseContext>();
 builder.Services.AddScoped<IGetUsersService, GetUsersService>();
 builder.Services.AddScoped<IGetRolesService, GetRolesService>();
+builder.Services.AddScoped<IRegisterUserService, RegisterUserService>();
 //{ "DefaultConnection": "Host = ; Port = 5432; Username = ; Password = ; Database = Users; SSL Mode = Require"
 //"Host=127.0.0.1;Port=5432;Database=store;Username=omid;Password=12345678"
 string PostgreSqlConnectionString = @"Host=127.0.0.1;Port=5432;Database=ShopDB;Username=postgres;Password=123456";

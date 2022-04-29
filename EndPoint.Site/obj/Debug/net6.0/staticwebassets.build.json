@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "peXriPdzxodJNEObRSum5EKAGYsq4+ph8NGM2RW5Muw=",
+  "Hash": "RfZ7Zd90Ry0aTNX9xshX9fzNPRHA41rUCyVdQif4h7I=",
   "Source": "EndPoint.Site",
   "BasePath": "_content/EndPoint.Site",
   "Mode": "Default",
@@ -5353,6 +5353,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\wwwroot\\Sweetalert\\sweetalert2.min.css",
+      "SourceId": "EndPoint.Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\wwwroot\\",
+      "BasePath": "_content/EndPoint.Site",
+      "RelativePath": "Sweetalert/sweetalert2.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sweetalert\\sweetalert2.min.css"
+    },
+    {
+      "Identity": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\wwwroot\\Sweetalert\\sweetalert2.min.js",
+      "SourceId": "EndPoint.Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\wwwroot\\",
+      "BasePath": "_content/EndPoint.Site",
+      "RelativePath": "Sweetalert/sweetalert2.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sweetalert\\sweetalert2.min.js"
     },
     {
       "Identity": "F:\\Projects\\Asp.Net\\Asp.Net Core\\ShopWithASP.NETCore\\EndPoint.Site\\wwwroot\\UserTemplate\\assets\\css\\main.css",
