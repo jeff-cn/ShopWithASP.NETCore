@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser;
+using ShopWithASP.NETCore.Application.Services.Users.Commands.RemoveUser;
 using ShopWithASP.NETCore.Application.Services.Users.Queries.GetRoles;
 using ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers;
 
@@ -12,12 +13,14 @@ namespace EndPoint.Site.Areas.Admin.Controllers
         private readonly IGetUsersService _getUsersService;
         private readonly IGetRolesService _getRolesService;
         private readonly IRegisterUserService _registerUserService;
+        private readonly IRemoveUserService _removeUserService;
         public UsersController(IGetUsersService getUsersService, IGetRolesService getRolesService,
-            IRegisterUserService registerUserService)
+            IRegisterUserService registerUserService, IRemoveUserService removeUserService)
         {
             _getUsersService = getUsersService;
             _getRolesService = getRolesService;
             _registerUserService = registerUserService;
+            _removeUserService = removeUserService;
         }
 
         public IActionResult Index(string SearchKey, int Page)
@@ -55,5 +58,12 @@ namespace EndPoint.Site.Areas.Admin.Controllers
             });
             return Json(_result);
         }
+
+        [HttpPost]
+        public IActionResult Delete(long UserId)
+        {
+            return Json(_removeUserService.Execute(UserId));
+        }
+
     }
 }

@@ -30,7 +30,7 @@ namespace ShopWithASP.NETCore.Presentation.Contexts
             // اعمال ایندکس بر روی فیلد ایمیل واعمال عدم تکراری بودن ایمیل
             modelBuilder.Entity<User>().HasIndex(u => u.Email).IsUnique();
 
-            //modelBuilder.Entity<User>().HasQueryFilter(p => !p.IsRemoved);
+            modelBuilder.Entity<User>().HasQueryFilter(p => !p.IsRemoved);
         }
     }
 }
