@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ShopWithASP.NETCore.Application.Services.Users.Commands.EditUser;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.RemoveUser;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.UserSatusChange;
@@ -16,23 +17,25 @@ namespace EndPoint.Site.Areas.Admin.Controllers
         private readonly IRegisterUserService _registerUserService;
         private readonly IRemoveUserService _removeUserService;
         private readonly IUserSatusChangeService _userSatusChangeService;
+        private readonly IEditUserService _editUserService;
         public UsersController(IGetUsersService getUsersService, IGetRolesService getRolesService,
             IRegisterUserService registerUserService, IRemoveUserService removeUserService,
-            IUserSatusChangeService userSatusChangeService)
+            IUserSatusChangeService userSatusChangeService, IEditUserService editUserService)
         {
             _getUsersService = getUsersService;
             _getRolesService = getRolesService;
             _registerUserService = registerUserService;
             _removeUserService = removeUserService;
             _userSatusChangeService = userSatusChangeService;
+            _editUserService = editUserService;
         }
 
-        public IActionResult Index(string SearchKey, int Page)
+        public IActionResult Index(string SearchKey, int Page = 1)
         {
             return View(_getUsersService.Execute(new RequsetGetUserDto
             {
-                SearchKey = SearchKey,
                 Page = Page,
+                SearchKey = SearchKey,
             }));
         }
 
@@ -73,6 +76,16 @@ namespace EndPoint.Site.Areas.Admin.Controllers
         public IActionResult UserSatusChange(long UserId)
         {
             return Json(_userSatusChangeService.Execute(UserId));
+        }
+
+        [HttpPost]
+        public IActionResult Edit(long UserId, string Fullname)
+        {
+            return Json(_editUserService.Execute(new RequestEdituserDto
+            {
+                Fullname = Fullname,
+                UserId = UserId,
+            }));
         }
 
     }

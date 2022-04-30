@@ -7,6 +7,7 @@ using ShopWithASP.NETCore.Application.Services.Users.Queries.GetRoles;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.RemoveUser;
 using ShopWithASP.NETCore.Application.Services.Users.Commands.UserSatusChange;
+using ShopWithASP.NETCore.Application.Services.Users.Commands.EditUser;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,11 +20,14 @@ builder.Services.AddScoped<IGetRolesService, GetRolesService>();
 builder.Services.AddScoped<IRegisterUserService, RegisterUserService>();
 builder.Services.AddScoped<IRemoveUserService, RemoveUserService>();
 builder.Services.AddScoped<IUserSatusChangeService, UserSatusChangeService>();
+builder.Services.AddScoped<IEditUserService, EditUserService>();
 //{ "DefaultConnection": "Host = ; Port = 5432; Username = ; Password = ; Database = Users; SSL Mode = Require"
 //"Host=127.0.0.1;Port=5432;Database=store;Username=omid;Password=12345678"
 string PostgreSqlConnectionString = @"Host=127.0.0.1;Port=5432;Database=ShopDB;Username=postgres;Password=123456";
 builder.Services.AddEntityFrameworkNpgsql().
     AddDbContext<DataBaseContext>(options => options.UseNpgsql(PostgreSqlConnectionString));
+
+//------- this is for DateTime
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 // Add services to the container.

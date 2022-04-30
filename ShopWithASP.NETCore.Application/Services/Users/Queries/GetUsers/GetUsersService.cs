@@ -15,7 +15,7 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers
             var _users = _context.Users.AsQueryable();
             if (!string.IsNullOrWhiteSpace(_requset.SearchKey))
             {
-                _users = _users.Where(o => o.FullName.Contains(_requset.SearchKey) && o.Email.Contains(_requset.SearchKey));
+                _users = _users.Where(o => o.FullName.Contains(_requset.SearchKey) || o.Email.Contains(_requset.SearchKey));
             }
             int RowsCount = 0;
             var _userlist = _users.ToPaged(_requset.Page, 20, out RowsCount).Select(o => new GetUsersDto
