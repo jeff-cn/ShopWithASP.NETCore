@@ -22,7 +22,8 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Queries.GetUsers
             {
                 Email = o.Email,
                 FullName = o.FullName,
-                UserId = o.UserId
+                UserId = o.UserId,
+                IsActive = o.IsActive,
             }).ToList();
             
             return new ResultGetUserDto
