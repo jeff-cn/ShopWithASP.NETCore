@@ -2,6 +2,7 @@
 using ShopWithASP.NETCore.Common;
 using ShopWithASP.NETCore.Common.Dto;
 using ShopWithASP.NETCore.Doima.Entities.Users;
+using System.Text.RegularExpressions;
 
 namespace ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser
 {
@@ -65,11 +66,29 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser
                         Message = "رمز عبور و تکرار آن برابر نیست"
                     };
                 }
+                string EmailRegex = @"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}$";
+
+                var match = Regex.Match(_request.Email, EmailRegex, RegexOptions.IgnoreCase);
+                if (!match.Success)
+                {
+                    return new ResultDto<ResultRegisterUserDto>()
+                    {
+                        Data = new ResultRegisterUserDto()
+                        {
+                            UserId = 0,
+                        },
+                        IsSuccess = false,
+                        Message = "ایمیل خودرا به درستی وارد نمایید"
+                    };
+                }
+                var passwordHasher = new HashPassword();
+                var hashedPassword = passwordHasher.HashPassword(_request.Password);
                 User user = new User()
                 {
                     Email = _request.Email,
                     FullName = _request.FullName,
-                    Password = HashPassword.Execute(_request.Password),
+                    Password = hashedPassword,
+                    IsActive = true,
                 };
                 
                 List<UserInRole> userInRoles = new List<UserInRole>();
