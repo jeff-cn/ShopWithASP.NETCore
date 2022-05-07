@@ -82,7 +82,7 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser
                     };
                 }
                 var passwordHasher = new HashPassword();
-                var hashedPassword = passwordHasher.HashPassword(_request.Password);
+                var hashedPassword = passwordHasher.PasswordHash(_request.Password);
                 User user = new User()
                 {
                     Email = _request.Email,
