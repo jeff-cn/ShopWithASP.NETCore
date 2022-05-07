@@ -78,7 +78,7 @@ namespace ShopWithASP.NETCore.Application.Services.Users.Commands.RegisterUser
                             UserId = 0,
                         },
                         IsSuccess = false,
-                        Message = "ایمیل خودرا به درستی وارد نمایید"
+                        Message = "ایمیل خود را به درستی وارد نمایید"
                     };
                 }
                 var passwordHasher = new HashPassword();

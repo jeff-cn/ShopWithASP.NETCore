@@ -23,7 +23,7 @@ builder.Services.AddAuthentication(options =>
 }).AddCookie(options =>
 {
     options.LoginPath = new PathString("/");
-    options.ExpireTimeSpan = TimeSpan.FromMinutes(5.0);
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(15.0);
 });
 
 // AddEntityFrameWorkSqlServer or AddEntityFrameWorkPostgreSQL | AddEntityFrameworkNpgsql();
